@@ -11,12 +11,42 @@ body,
     align-items: center;
 }
 
+#__next {
+    margin: $spacing-lrg 0;
+    max-width: 50rem;
+}
+
 body {
     -webkit-font-smoothing: antialiased;
 }
 
-img {
-    max-width: 100%;
+section + section {
+    margin-top: $spacing-xxl;
+}
+
+.react-json-view,
+img,
+input {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: $spacing-med;
+    margin-bottom: $spacing-sml;
+}
+
+input {
+    box-sizing: border-box;
+    border: none;
+    background: lighten($color-gray-lightest, 5%);
+    padding: $spacing-xs;
+    border-radius: $border-radius-lrg;
+}
+
+.react-json-view {
+    max-width: 50rem;
+    overflow: auto;
 }
 
 svg {

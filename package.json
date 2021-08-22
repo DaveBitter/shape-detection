@@ -1,11 +1,11 @@
 {
-  "name": "next-boilerplate",
+  "name": "shape-detection",
   "version": "1.0.0",
-  "description": "An opinionated Next.js boilerplate",
+  "description": "A demo page for the Shape Detection API",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaveBitter/next-boilerplate.git"
+    "url": "git+https://github.com/DaveBitter/shape-detection.git"
   },
   "keywords": [
     "nextjs",
@@ -26,9 +26,9 @@
   "author": "Dave Bitter <daveybitter@gmail.com> (https://www.davebitter.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DaveBitter/next-boilerplate/issues"
+    "url": "https://github.com/DaveBitter/shape-detection/issues"
   },
-  "homepage": "https://github.com/DaveBitter/next-boilerplate#readme",
+  "homepage": "https://github.com/DaveBitter/shape-detection#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -63,7 +63,8 @@
   "dependencies": {
     "next": "9.3.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-json-view": "^1.21.3"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",

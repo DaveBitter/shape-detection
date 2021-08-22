@@ -16,7 +16,7 @@ const getGuards = event => ({
 self.addEventListener('install', e =>
     e.waitUntil(
         caches
-            .open('next-boilerplate')
+            .open('shape-detection')
             .then(cache => cache.addAll(getResourcesToCache())
             )
     )
@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
     if (!isGET || !isSameOrigin || !isHTTPRequest) { return; }
 
     e.respondWith(caches
-        .open('next-boilerplate')
+        .open('shape-detection')
         .then(cache => cache.match(e.request)
             .then(response => {
                 return fetch(e.request)

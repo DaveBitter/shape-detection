@@ -1,7 +1,7 @@
 {
-    "name": "Next Boilerplate",
-    "short_name": "Next Boilerplate",
-    "description": "An opinionated Next.js boilerplate",
+    "name": "Shape Detection API demo",
+    "short_name": "Shape Detection API demo",
+    "description": "A demo page for the Shape Detection API",
     "scope": "/",
     "start_url": "/",
     "display": "standalone",
